@@ -20,7 +20,7 @@ const defaultSettings = {
   designer: "audrey",
   complexity: 0.5,
   warmth: 0.25,
-  baseColor: "#0000FF"
+  baseColor: "#000000"
 };
 
 let autosaved = JSON.parse(window.localStorage.getItem("themeState"));
