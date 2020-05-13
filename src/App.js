@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Box, Paper, Typography, Divider } from "@material-ui/core";
 import { ThemeProvider, useTheme } from "@material-ui/styles";
 
+// Inputs for editing
 import Slider from "./Inputs/Slider";
 import Select from "./Inputs/Select";
 import Color from "./Inputs/Color";
