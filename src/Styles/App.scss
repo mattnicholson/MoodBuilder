@@ -1,0 +1,65 @@
+html,body{
+  background:#222;
+  margin: 0;
+  padding: 0;
+}
+
+.App-canvas{
+  .dropzone{
+    &:focus-within{
+      outline:none;
+    }
+  }
+}
+.App-breakpoints{
+  text-align:center;
+}
+.App-window{
+  box-shadow:0 0 2px rgba(0,0,0,0.2);
+  border-radius:5px;
+  background:#333;
+  padding:10px;
+  //border:1px solid rgba(255,255,255,0.2);
+  pointer-events:all;
+  *{
+    color:white;
+  }
+
+  .App-window-icon{
+    *{
+      font-size:16px;
+    }
+    margin-right:10px;
+  }
+  .App-window-head{
+    border-bottom:1px solid rgba(255,255,255,0.1);
+    padding-bottom:5px;
+    margin-bottom:5px;
+    display:flex;
+    text-transform:uppercase;
+    font-size:10px;
+  }
+}
+
+.App-windows{
+  .react-grid-item.react-grid-placeholder{
+    background:black;
+  }
+}
+
+.App-window-sizer{
+  pointer-events:all;
+  .App-window{
+    position:absolute;
+    top:0;
+    left: 0;
+    right:0;
+    bottom:0;
+    overflow:hidden;
+    overflow-y:scroll;
+  }
+
+  .App-window-head{
+    cursor:move;
+  }
+}

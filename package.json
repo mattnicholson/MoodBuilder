@@ -1,0 +1,41 @@
+{
+  "name": "oppo",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@material-ui/core": "4.9.9",
+    "@material-ui/icons": "4.9.1",
+    "@material-ui/lab": "4.0.0-alpha.50",
+    "chroma-js": "2.1.0",
+    "framer-motion": "2.0.0-beta.54",
+    "immer": "6.0.3",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "react-dropzone": "10.2.2",
+    "react-grid-layout": "0.18.3",
+    "react-rnd": "10.1.8",
+    "react-scripts": "3.0.1",
+    "react-sizeme": "2.6.12",
+    "slate": "0.57.1",
+    "slate-history": "0.57.1",
+    "slate-react": "0.57.1",
+    "zustand": "2.2.3"
+  },
+  "devDependencies": {
+    "typescript": "3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
