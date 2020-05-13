@@ -19,7 +19,7 @@ import isaacInterior01 from "./designers/isaac/interior/01.jpg";
 const defaultSettings = {
   designer: "audrey",
   complexity: 0.5,
-  warmth: 0.25,
+  warmth: 0.5,
   baseColor: "#000000"
 };
 
